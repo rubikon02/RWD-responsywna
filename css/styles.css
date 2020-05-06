@@ -1,0 +1,46 @@
+ul {
+    list-style-type: none;
+}
+.sprite {
+    width: 48px; height: 48px;
+    background-image: url('../images/logo.png');
+}
+
+.dribbble:hover  {background-position: -10px -10px;}
+.dribbble        {background-position: -78px -10px;}
+.facebook:hover  {background-position: -146px -10px;}
+.facebook        {background-position: -214px -10px;}
+.twitter:hover   {background-position: -282px -10px;}
+.twitter         {background-position: -350px -10px;}
+
+.poster {
+    box-shadow: 0.1rem 0.1rem 1rem #bbb;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.poster:hover {
+    box-shadow: 0.1rem 0.1rem 2rem 0.3rem #bbb;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+footer, h1 {
+    line-height: 175%;
+    box-shadow: 0.1rem 0.1rem 1rem #bbb;
+}
+
+h4 {
+    text-align: center;
+}
+
+.padding {
+    width: 85% !important;
+    padding: 2rem 2rem 0rem 2rem;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+p.copyright {
+    margin-top: -3.5rem;
+}
