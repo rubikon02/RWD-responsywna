@@ -1,9 +1,8 @@
-/* header */
-
 .form-element-container {
     display: flex;
     flex-direction: row;
     align-items: center;
+    /* margin: 1rem; */
 }
 
 .nav-menu {
@@ -12,49 +11,6 @@
 
 .form-element-container > label {
     margin: 5px;
-}
-
-
-/* content */
-
-.portfolio img {
-    width: 100%;
-}
-
-.poster {
-    margin: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-figcaption {
-    padding: 1rem;
-}
-
-figure {
-    margin-top: 1rem !important;
-    margin-bottom: 2rem !important;
-}
-
-.portfolio {
-    display: flex;
-}
-
-/* footer */
-
-footer .columns {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: -2.6rem !important; 
-}
-
-footer {
-    padding: 2rem !important;
-    margin-bottom: 2rem !important;
 }
 
 .logo {
@@ -69,4 +25,45 @@ footer {
 
 .logo-list  li{
     margin: 10px;
+}
+
+footer .columns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer {
+    padding: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+footer .columns {
+    margin-bottom: -2.6rem !important; 
+}
+
+.portfolio img {
+    width: 100%;
+}
+
+.poster {
+    margin: 0;
+}
+
+.columns {
+    margin: 1% !important;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+figcaption {
+    padding: 1rem;
+}
+
+figure {
+    margin-top: 1rem !important;
+    margin-bottom: 2rem !important;
 }
